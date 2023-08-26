@@ -66,7 +66,7 @@ a {
   margin: 0 auto;
   padding: 0 3rem;
   z-index: 10;
-  gap: 15px;
+  gap: 10px;
 }
 
 header {
@@ -345,7 +345,7 @@ grid-template-columns: repeat(2,1fr);
   padding: 1rem;
   border-radius: 0.375rem;
   background-color: rgb(240 253 244);
-  border: solid white
+  border: 4px solid white
 }
 
 .succes-svg {
@@ -360,7 +360,6 @@ grid-template-columns: repeat(2,1fr);
 
 .success-prompt-heading {
   font-weight: bold;
-  font-size: rem;
   color: rgb(22 101 52);
 }
 
@@ -627,7 +626,14 @@ h1{
 }
 
 
+@media  (max-width: 685px){
+  .container {
 
+    grid-template-columns: repeat(1,1fr);
+    
+  }
+
+}
 
 
 
